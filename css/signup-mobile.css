@@ -1,0 +1,54 @@
+@media screen and (max-width: 665px) {
+    .btn-signUp{
+        display:block;
+    } 
+    
+    .main{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 1.5fr;
+        width:100%;
+        border-radius: 0;
+
+    }
+
+    .container{
+        display: flex;
+        gap: 20px;
+        width:100%;
+        border-radius:0;
+        height: 100px;
+        background: transparent;
+        padding:30px;
+        text-align: center;
+        justify-self: center;
+        align-items: center;
+        color:#ff416c;
+    }
+
+    .container h1,p{
+        display: none;
+    }
+
+    .btn-1{
+        background-color:#ff416c ;
+        color: #fff;
+        margin:10px 0 -10px 0 ;
+    }
+
+    .btn-signUp{
+        background-color:#fff;
+        color: black;
+        border: 1px solid #413535 ;
+    }
+
+    .btn-signUp:hover{
+        background-color:#ffffff00;
+        color:  rgb(255, 255, 255);
+        border: 1px solid #413535 ;
+    }
+
+    .signIn{
+        display: none;
+    }
+}

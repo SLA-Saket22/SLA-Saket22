@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url('../image/GradientsDesign_Red.png') no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.main{
+    display:grid;
+    grid-template-columns: .9fr 1.1fr;
+    justify-content: space-between;
+    width:840px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+
+
+.container{
+    width:100%;
+    background: color #ff416c;
+    background: url('../image/GradientsDesign_Red.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:40px;
+    padding: 150px 50px;
+    text-align: center;
+    justify-self: center;
+    align-self: stretch;
+    color: #fff;
+}
+
+.color{
+    width: 100%;
+    background-color:rgba(24, 22, 22, .4);
+    background-size: cover;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container h1{
+    margin:10px 0;
+}
+
+.container p{
+    margin:20px 0;
+}
+
+.login{
+    
+    background-color: #fff;
+    border-radius: 0 40px 40px 0;
+    backdrop-filter: blur(20px);
+    width: 100%;
+    color: rgb(7, 7, 7);
+    padding: 40px 50px;
+}
+
+.login h1{
+    text-align: center; 
+    font-size:36px;
+}
+
+.login .inpt-btn{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    position: relative;
+    color: rgb(7, 7, 7);
+}
+
+.login .inpt-btn input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(52, 50, 50, 0.2);
+    border-radius: 40px;
+    padding:10px 50px 10px 20px;
+    font-size: 16px;
+}
+
+.login .inpt-btn i{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.login input::placeholder{
+    color: rgb(11, 11, 11);
+}
+
+.login .check-box{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+    font-size: 15px;
+}
+
+.login .check-box input{
+    margin:0 5px 0 0;
+}
+
+.login .check-box a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+.login .check-box a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height:50px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color:#ebdfdf;
+    font-weight: 600 ;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff416c;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+.btn-1{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height:50px;
+    border-radius: 40px;
+    border: 1px solid rgba(249, 243, 243, 0.895);
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color:#f5f5f5;
+    font-weight: 600 ;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:transparent;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+
+.container .btn-1:hover{
+    background-color: #f5e9e9;
+    color: #000000;
+}
+
+.remem{
+    margin:15px 0;
+    text-align: center;
+}
+
+.remem a {
+    font-weight: 600;
+}
+
+.remem a:hover{
+    text-decoration: underline;
+}
+
+.social-bar{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-bar i{
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.use-email{
+    text-align: center;
+    margin:0 0 -15px 0;
+}
+
+.btn-signUp{
+    display: none;
+}
+
